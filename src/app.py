@@ -1,6 +1,5 @@
 import streamlit as st
 import polars as pl
-import glob
 import os
 from preprocessing_consig import fix_dates, fix_bancoemprestimo, fix_esp_and_mr
 from datetime import datetime, date
