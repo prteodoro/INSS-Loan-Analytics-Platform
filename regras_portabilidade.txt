@@ -1,0 +1,47 @@
+Regras portabilidade C6Bank (Regras Facilita)
+
+Não porta: 
+Daycoval (707), Agibank (124), Inbursa (012), BRB (070)
+707, 124, 012, 070
+
+Bancos de rede: 1
+Demais bancos: 12
+
+bank_min_months_default = {
+    29: 26,
+    254: 14,
+    329: 14,
+    623: 38,
+    935: 14,
+    149: 14
+}
+
+-----------------------------------------------
+
+Regras Portabilidade Meu CredBank (Regras CredFranco)
+
+Não porta: 
+Pine (643), Inbursa (012), BRB (070), Facta (149), Parana (254), QI (329),
+C6/Ficsa (626/336), NBC Bank (753)
+643, 012, 070, 149, 254, 329, 626, 336, 753
+
+Mínimo Pagas:
+121: 1,
+29: 24,
+33: 24,
+623: 25,
+318: 18,
+707: 18,
+
+Demais bancos: 1
+
+bank_min_months_default = {
+    29: 24,
+    33: 24,
+    623: 25,
+    318: 18,
+    707: 18,    
+}
+
+-----------------------------------------------
+
