@@ -1,8 +1,19 @@
 # INSS Loan Analytics Platform
 
-A high-performance data processing platform for analyzing large-scale INSS loan data and identifying refinancing and portability opportunities.
+A high-performance data processing platform for analyzing INSS payroll loan data and identifying refinancing and portability opportunities.
 
-Designed to efficiently process large-scale datasets, validated with 27 partitioned files (one per Brazilian state), totaling approximately 48 million rows, using lazy evaluation and streaming execution to maintain low memory usage.
+Designed to efficiently process large-scale datasets using lazy evaluation and streaming execution.  
+Validated on 27 partitioned files (one per Brazilian state), totaling approximately 48 million rows while maintaining low memory usage.
+
+---
+
+## 🇧🇷 Versão em Português
+
+Este projeto é uma plataforma de alta performance para análise de dados de crédito consignado do INSS.
+
+Foi desenvolvido para processar grandes volumes de dados (dezenas de milhões de registros) utilizando execução lazy e streaming com Polars, permitindo baixo uso de memória mesmo em datasets massivos.
+
+O objetivo é identificar oportunidades de portabilidade e refinanciamento com base em regras de negócio reais.
 
 ---
 
